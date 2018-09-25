@@ -1,6 +1,6 @@
 {% set name = "py-gfm" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "f107e43248eba6236b19ceda78531f40c7bdb85ba4a219f478c92920397f4f98" %}
+{% set version = "0.1.4" %}
+{% set sha256 = "ef6750c579d26651cfd23968258b604228fd71b2a4e1f71dea3bea289e01377e" %}
 
 package:
   name: {{ name|lower }}
