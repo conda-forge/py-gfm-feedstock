@@ -1,6 +1,6 @@
 {% set name = "py-gfm" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "ef6750c579d26651cfd23968258b604228fd71b2a4e1f71dea3bea289e01377e" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "e5805d2680791ee8b38fc846c650d6c812682c8b1a939a64c29618a1f701e093" %}
 
 package:
   name: {{ name|lower }}
@@ -14,8 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
-  
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 requirements:
   host:
     - python
