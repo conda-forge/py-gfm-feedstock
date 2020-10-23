@@ -5,9 +5,11 @@ Home: https://github.com/zopieux/py-gfm
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/py-gfm-feedstock/blob/master/LICENSE.txt)
 
 Summary: An implementation of Github-Flavored Markdown written as an extension to the Python Markdown library.
+
+Development: https://github.com/Zopieux/py-gfm
 
 'An implementation of Github-Flavored Markdown written as an extension to the Python Markdown library.'
 
